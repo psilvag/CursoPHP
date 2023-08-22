@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #232628;
+    overscroll-behavior-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    width: 20%;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: #161819;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    outline: none;
+    border-style: none;
+    
+}
+.formulario select{
+    width: 70%;
+    height: 30px;
+
+}
+
+
+.formulario .btn_enviar{
+    width: 90px;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    padding: 7px 3px;
+}
+.formulario .btn_enviar:hover{
+    filter: brightness(1.3);
+    cursor: pointer;
+}

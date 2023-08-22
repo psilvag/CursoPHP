@@ -1,0 +1,24 @@
+.style_header{
+background-color: rgb(79, 79, 178);
+color:black;
+text-align: center;
+height: 20vh;
+}
+.style_section{
+    background-color: rgb(123, 123, 180);
+    color:rgb(16, 3, 70);
+    height: 60vh;
+    text-align: center;
+    
+    }
+
+    .style_footer{
+        background-color: rgb(42, 42, 47);
+        color:rgb(255, 255, 255);
+        text-align: center;
+        height: 20vh;
+        }
+        
+
+
+
