@@ -13,8 +13,8 @@ function gestorErrores($errorNo,$errorStr,$errorFile,$errorLine){
     break;
     case E_USER_NOTICE:
         echo "Codigo de error:$errorNo <br> Ruta:$errorFile <br> Linea:$errorLine <br>";
-    default:
-    echo 'Error desconocido';
+    // default:
+    // echo 'Error desconocido';
   }
 
 }
